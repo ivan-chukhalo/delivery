@@ -12,10 +12,12 @@ const [data, setData] = useState(db)
   return (
     <>
       <Header />
+        <div>
       <Routes>
-        <Route exact path="/" element={<Shop data={data}/>} />
-        <Route path="/cart" element={<Cart />} />
+          <Route exact path="/" element={<Shop data={data}/>} />
+          <Route path="/cart" element={<Cart />} />
       </Routes>
+        </div>
     </>
   );
 }

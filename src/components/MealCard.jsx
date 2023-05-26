@@ -1,5 +1,4 @@
 import React from 'react'
-import "./MealCard.css"
 
 export default function MealCard({name, shop, price, description}){
     return(

@@ -1,0 +1,13 @@
+.shop-btn{
+    border-radius: 15px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.shop-btn:hover{
+    box-shadow: 0px 0px 9px 3px rgba(255,255,255,1);
+}
+
+.shop-btn:active{
+    background-color: rgb(220, 220, 220);
+}

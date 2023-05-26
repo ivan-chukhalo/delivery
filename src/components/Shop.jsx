@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { nanoid } from "nanoid";
 import ShopBtn from "./ShopBtn.jsx";
+import MealCard from "./MealCard.jsx";
 import "./Shop.css";
 
 export default function Shop({ data }) {

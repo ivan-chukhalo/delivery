@@ -1,0 +1,19 @@
+.shopping{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shops{
+    position: sticky;
+    top: 68px;
+    display: flex;
+    flex-basis: 30vw;
+    align-self: flex-start;
+    flex-direction: column;
+    row-gap: 5vh;
+    padding: 10px;
+}
+
+.meal{
+    flex-basis: 60%;
+}

@@ -3,7 +3,7 @@ import './ShopBtn.css'
 
 export default function ShopBtn({shopName}){
     return (
-        <button>
+        <button className='shop-btn'>
             {shopName}
         </button>
     )
