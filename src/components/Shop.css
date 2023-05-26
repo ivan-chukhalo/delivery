@@ -1,11 +1,12 @@
 .shopping{
+    padding: 10px;
     display: flex;
     justify-content: space-between;
 }
 
 .shops{
     position: sticky;
-    top: 68px;
+    top: 80px;
     display: flex;
     flex-basis: 30vw;
     align-self: flex-start;
@@ -15,5 +16,9 @@
 }
 
 .meal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     flex-basis: 60%;
+    row-gap: 20px;
 }

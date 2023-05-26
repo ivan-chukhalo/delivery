@@ -1,0 +1,48 @@
+.mealCard{
+    flex: 0 0 250px;
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "price shop"
+        "description description";
+    grid-template-columns: 1fr 1fr;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.mealCard:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 6px 0px rgba(255,255,255,1);
+    cursor: pointer;
+}
+
+.mealCard__header{
+    grid-area: header;
+    text-align: center;
+    margin: 5px 0 10px;
+    font-size: 28px;
+}
+
+.mealCard__price{
+    grid-area: price;
+}
+
+.mealCard__shop{
+    grid-area: shop;
+    text-align: right;
+}
+
+.mealCard__description{
+    grid-area: description;
+    font-size: 14px;
+}
+
+.mealCard__info{
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+}
